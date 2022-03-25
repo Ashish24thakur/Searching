@@ -82,7 +82,7 @@ public class BinarySearch {
      }
      int ele;
      cin>>ele;
-     Search(arr,n,ele);
+     Search(arr,n,ele);    
 
      return 0;
  }
