@@ -77,5 +77,42 @@ public class Linear_Search {
             return 0;
         }
 
+//    In C++ .....................................................
+
+#include <iostream>
+
+using namespace std;
+        void Search(int arr[],int n,int ele)
+        {
+            int f=0;
+            for(int i=0;i<n;i++)
+            {
+                if(arr[i]==ele)
+                {
+                    f=1;
+                    cout<<ele << " is present at index " << i;
+                }
+            }
+            if(f==0)
+            {
+                cout<<"element not found";
+            }
+            }
+        int main()
+        {
+            int n;
+            cin>>n;
+            int arr[n];
+            for (int i = 0; i < n; i++)
+            {
+                cin>>arr[i];
+            }
+            int ele;
+            cin>>ele;
+            Search(arr,n,ele);
+
+        return 0;
+        }
+
 
 
